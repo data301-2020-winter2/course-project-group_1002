@@ -15,6 +15,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 3. Analysis of evolving music taste
 4. Music trends and the general climate of the year/decade + popularity of a specific instrument?
 5. Prediction of music trends
+6. Key artists of each genre/year?
 
 ## Describe your dataset in about 150-200 words
 
@@ -25,7 +26,7 @@ This dataset has been created to serve the scientific exploration of the evoluti
 
 ## Team Members
 
-- Mona Huang: one sentence about you!
+- Mona Huang: I am a third year Microbiology student.
 - Paula Wong-Chung: I am a Computer Science major passionate about Mathematics.
 - Shaohua Jiang: I am a third-year student studying Mathematics.
 
