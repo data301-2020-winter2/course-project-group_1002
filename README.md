@@ -9,21 +9,25 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-{Add your stuff here}
+(ideas in point form)
+1. Determining the common elements in popular songs
+2. Differences between popular songs for each decade/year
+3. Analysis of evolving music taste
+4. Music trends and the general climate of the year/decade + popularity of a specific instrument?
+5. Prediction of music trends
 
 ## Describe your dataset in about 150-200 words
 
 (Draft)
-1. Who: The dataset is from Kaggle and is collected by Yama Erne Ay, a Data Scientist from Berlin. 
-2. What: The data contains the audio features of over 1.75 million songs released between 1921 and 2021. It has a lot of numerical variables such as I’d, acoustic ness, popularity, years, and so on; and it has categories such as key, artists, release_date, and name. 
-3. When and Why: The dataset was first published in May 2021, and it aims as bringing fun to young people. 
-4. How: The dataset is collected from Spotify Web API.
+The Spotify dataset has been obtained from Kaggle, and is a courtesy of Yamac Eren Ay, a Data Scientist from Berlin. It contains data on audio features of more than 175,000 songs released in between 1921 and 2021 collected using the Spotify Web API. The noteworthy features include acousticness, danceability, energy, popularity, tempo, and speechiness. In addition, songs are categorised by key, artists, release date, and name. The ‘id’ field uniquely identifies the observations.   
+
+This dataset has been created to serve the scientific exploration of the evolution in music tastes.  
 
 ## Team Members
 
-- Person 1: one sentence about you!
-- Person 2: one sentence about you!
-- Shaohua Jiang: I am a third-years student studying Mathematics.
+- Mona Huang: one sentence about you!
+- Paula Wong-Chung: I am a Computer Science major passionate about Mathematics.
+- Shaohua Jiang: I am a third-year student studying Mathematics.
 
 ## References
 
