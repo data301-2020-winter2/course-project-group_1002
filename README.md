@@ -17,6 +17,10 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 5. Prediction of music trends
 6. Key artists of each genre/year?
 
+(draft)
+
+Music is a universal element that is present in all culture, and brings pleasure to most people. Through this analytic project, we aim to analyze the evolution of music taste over time, by exploring the common elements in popular songs, the general musical trend during specific eras, and identifying the most popular artists, genres, and individual songs during different times. Moreover, we are also interested in predicting future musical trends. The overall goal is to create a dashboard to visualize the data and present the shift in musical preference over the last 100 years.
+
 ## Describe your dataset in about 150-200 words
 
 (Draft)
