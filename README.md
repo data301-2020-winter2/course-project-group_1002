@@ -16,8 +16,8 @@ By using the Spotify Dataset, we seek to investigate the shifts in musical taste
 ## Describe your dataset in about 150-200 words
 
 (Draft)
-The Spotify dataset has been obtained from Kaggle, a data science community where public datasets are available for use. It is courtesy of Yamac Eren Ay, a Data Scientist from Berlin and a passionate music listener. This dataset has been created to serve the scientific exploration of the evolution in musical tastes.  
-It contains data on audio features of more than 175,000 songs released in between 1921 and 2021 collected using the Spotify Web API. The noteworthy features include acousticness, danceability, energy, popularity, tempo, and speechiness. In addition, songs are categorised by key, artists, release date, and name. The ‘id’ field uniquely identifies the observations.   
+The Spotify dataset has been obtained from Kaggle, a data science community where public datasets are available for use. It is courtesy of Yamac Eren Ay, a Data Scientist from Berlin and a passionate music listener. This dataset has been created to serve the scientific exploration of the evolution of musical tastes.  
+It contains data on audio features of more than 175,000 songs released between 1921 and 2021 collected using the Spotify Web API. The noteworthy features include acousticness, danceability, energy, popularity, tempo, and speechiness. In addition, songs are categorized by key, artists, release date, and name. The ‘id’ field uniquely identifies the observations.   
 
 The dataset contains five files. ‘data.csv’ is the main file, and the other ones were created using data from this file. While the numerical values - acousticness, danceability, energy, valence, instrumentalness, speechiness, tempo, loudness, duration_ms, liveness, and popularity – were obtained by calculating the mean of the values obtained from the API, categorical features such as ‘key’ and ‘mode’ were obtained by calculating the mode of the values. Moreover, ‘popularity’ is based on US data, not worldwide data, and this could potentially limit the scope of the analysis.
  
