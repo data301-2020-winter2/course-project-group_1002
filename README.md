@@ -15,7 +15,6 @@ By using the Spotify Dataset, we seek to investigate the shifts in musical taste
 
 ## Describe your dataset in about 150-200 words
 
-(Draft)
 The Spotify dataset has been obtained from Kaggle, a data science community where public datasets are available for use. It is courtesy of Yamac Eren Ay, a Data Scientist from Berlin and a passionate music listener. This dataset has been created to serve the scientific exploration of the evolution of musical tastes.  
 It contains data on audio features of more than 175,000 songs released  between 1921 and 2021 collected using the Spotify Web API. The noteworthy features include acousticness, danceability, energy, popularity, tempo, and speechiness. In addition, songs are categorized by key, artists, release date, and name. The ‘id’ field uniquely identifies the observations.   
 
@@ -30,5 +29,4 @@ The dataset contains five files. ‘data.csv’ is the main file, and the other 
 
 ## References
 
-1. Kaggle, Spotify Dataset 1921-2020, 160k+ Tracks 
-https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks
+1. Yamac Eren Ay. (2021, January). Spotify Dataset 1921-2020, 160k+ Tracks, Version 10.  Retrieved February 12, 2021 from https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks.
