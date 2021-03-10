@@ -18,18 +18,21 @@ import seaborn as sns
 
 # Functions
 def load_and_process(url): 
-    import pandas as pd
+    #load
     data = pd.read_csv(url)
-    new_data = (data.
+    
+    #clean
+    df = (data.
             dropna().
             reset_index().
-            drop(columns='index').
-            sort_values(by='popularity').
-            assign(release_date_time = pd.
-                   to_datetime(data['release_date'],
-                               utc=True).
-                   dt.date))
-    return new_data
+            drop(columns={'index','release_date','id', 'count'}, axis=1, errors='ignore')  
+         )
+    
+    #sort by year if it exists
+    if 'year' in data.columns:
+        df = df.sort_values(by='year')
+
+    return df
 
 # Sorting in orders
 def sort_descending(string, data):
