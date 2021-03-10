@@ -34,10 +34,10 @@ def load_and_process(url):
 
     return df
 
-# since some column values are stored as arrays in string format, we need to convert that to lists for analysis 
-def convert_to_list(column, dataframe):
-    dataframe[column] = dataframe[column].astype(str)
-    dataframe[column] = dataframe[column].apply(literal_eval)
+# since some column values are stored as arrays in string format, we need to convert that to lists and break it up for analysis 
+def convert_and_explode(column, dataframe):
+    dataframe[column] = dataframe[column].astype(str).apply(literal_eval)
+    dataframe = dataframe.explode(column)
     
     return dataframe
 
