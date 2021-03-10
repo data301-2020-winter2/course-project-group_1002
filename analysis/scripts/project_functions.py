@@ -11,7 +11,7 @@ import matplotlib
 # %autoreload 2
 
 
-# Some code to stype plots
+# Some code to style plots
 
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -21,7 +21,6 @@ def load_and_process(url):
     import pandas as pd
     data = pd.read_csv(url)
     new_data = (data.
-            #rename(columns={' Rocket':'Mission Cost'}).
             dropna().
             reset_index().
             drop(columns='index').
