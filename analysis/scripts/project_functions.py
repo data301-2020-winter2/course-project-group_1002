@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Functions
-def load_and_process(url): 
+def load_and_process(url, name, target_url): 
     #load
     data = pd.read_csv(url)
     
@@ -31,6 +31,8 @@ def load_and_process(url):
     #sort by year if it exists
     if 'year' in data.columns:
         df = df.sort_values(by='year')
+    
+    df.to_csv(target_url + '/data_' + name +'.csv')
 
     return df
 
