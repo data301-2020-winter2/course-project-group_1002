@@ -32,6 +32,7 @@ def load_and_process(url):
     if 'year' in data.columns:
         df = df.sort_values(by='year')
 
+    #data.to_csv('../data/processed/data.csv')    #we are going to save the files manually since there are so many of them and to avoid errors happening when overwriting
     return df
 
 # since some column values are stored as arrays in string format, we need to convert that to lists and break it up for analysis 
