@@ -34,3 +34,8 @@ The dataset contains five files. ‘data.csv’ is the main file, and the other 
 2. 20th Century and beyond. (n.d.) Retrieved March 10,2021, from https://www.classicfm.com/discover-music/periods-genres/modern/
 
 3. Modern Art Music. (n.d.)  Retrieved March 10,2021, from https://wmich.edu/mus-gened/mus150/1500%20webbook%20modern%20artmusic/Modern%20ArtMusic.htm
+
+## Online Dashboard Links
+
+- **Paula**: https://us-west-2b.online.tableau.com/#/site/data301/workbooks/345083?:origin=card_share_link
+- **Shaohua**: 
