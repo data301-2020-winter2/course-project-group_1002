@@ -38,4 +38,4 @@ The dataset contains five files. ‘data.csv’ is the main file, and the other 
 ## Tableau Online Dashboard Links
 
 - **Paula**: https://us-west-2b.online.tableau.com/#/site/data301/workbooks/345083?:origin=card_share_link
-- **Shaohua**: 
+- **Shaohua**: https://us-west-2b.online.tableau.com/#/site/data301/workbooks/345221?:origin=card_share_link
